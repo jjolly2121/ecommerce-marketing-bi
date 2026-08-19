@@ -1,0 +1,33 @@
+# Local data and generated artifacts
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+exports/*.csv
+exports/*.hyper
+!exports/portfolio_*.csv
+
+# Local configuration and credentials
+.env
+*.json.key
+service-account*.json
+
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Tableau temporary recovery/lock files
+tableau/.~*.twbr
+
+# Private job-search materials and local Tableau QA artifacts
+career/
+tableau/PORTFOLIO_RELEASE_CHECKLIST.md
+tableau/executive_dashboard_prototype.png
+scripts/render_dashboard_prototype.py

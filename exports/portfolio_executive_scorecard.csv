@@ -1,0 +1,2 @@
+min_session_date,max_session_date,sessions,users,product_view_sessions,add_to_cart_sessions,checkout_sessions,purchase_sessions,governed_orders,revenue_usd,purchasers,repeat_purchasers,product_view_rate,add_to_cart_rate,cart_abandonment_rate,checkout_completion_rate,session_conversion_rate,average_order_value_usd,observed_repeat_purchase_rate
+2020-11-01,2021-01-31,360129,270154,77020,15188,11106,4848,5279,338108,4419,520,0.2138678085,0.1971955336,0.8124835396,0.4362506753,0.01346184284,64.04773631,0.1176736818

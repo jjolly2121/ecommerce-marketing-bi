@@ -1,0 +1,3 @@
+comparison_name,population_a,population_b,sessions_a,purchase_sessions_a,sessions_b,purchase_sessions_b,conversion_rate_a,conversion_rate_b,absolute_conversion_difference,relative_conversion_ratio,unpooled_standard_error,lower_95_ci_absolute_difference,upper_95_ci_absolute_difference
+Referral vs Paid Search,Referral,Paid Search,63524,1056,15618,153,0.01662363831,0.009796388782,0.006827249528,1.696914922,0.0009372542494,0.004990231199,0.008664267857
+Returning vs New Sessions,Returning Session,New Session,98891,3068,261238,1780,0.03102405679,0.006813710103,0.02421034669,4.553181207,0.0005743618445,0.02308459747,0.02533609590

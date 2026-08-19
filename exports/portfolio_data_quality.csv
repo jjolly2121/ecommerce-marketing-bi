@@ -1,0 +1,16 @@
+check_name,severity,failure_count,status
+cohort_retention_not_above_one,ERROR,0,PASS
+daily_mart_revenue_reconciles_to_orders,ERROR,0,PASS
+daily_mart_sessions_reconcile,ERROR,0,PASS
+daily_mart_transactions_reconcile_to_orders,ERROR,0,PASS
+nonnegative_order_revenue,ERROR,0,PASS
+order_primary_key_unique,ERROR,0,PASS
+orders_reconcile_to_governed_order_keys,ERROR,0,PASS
+session_dates_in_expected_range,ERROR,0,PASS
+session_primary_key_unique,ERROR,0,PASS
+source_to_stage_event_count,ERROR,0,PASS
+aggregate_funnel_ordering,WARN,0,PASS
+duplicate_purchase_event_rows,WARN,413,WARN
+events_missing_session_id,WARN,0,PASS
+governed_orders_zero_revenue,WARN,411,WARN
+purchase_events_missing_transaction_id,WARN,906,WARN

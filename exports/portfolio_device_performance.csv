@@ -1,0 +1,4 @@
+device_category,sessions,users,product_view_sessions,add_to_cart_sessions,purchase_sessions,revenue_usd,add_to_cart_rate,session_conversion_rate,revenue_per_session_usd
+desktop,208942,158917,44819,8790,2749,196159,0.1961221803,0.01315676121,0.9388203425
+mobile,143185,109195,30501,6077,1995,135996,0.1992393692,0.01393302371,0.9497922268
+tablet,8002,6250,1700,321,104,5953,0.1888235294,0.01299675081,0.7439390152

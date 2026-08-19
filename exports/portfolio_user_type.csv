@@ -1,0 +1,3 @@
+user_type,sessions,users,purchase_sessions,transactions,revenue_usd,session_conversion_rate,average_order_value_usd
+New Session,261238,261148,1780,1871,111843,0.006813710103,59.77712453
+Returning Session,98891,51885,3068,3408,226265,0.03102405679,66.39231221

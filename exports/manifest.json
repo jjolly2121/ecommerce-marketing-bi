@@ -1,0 +1,75 @@
+{
+  "project": "e-commerce-marketing-bi",
+  "dataset": "marketing_analytics",
+  "source_table_suffix_range": "20201101-20210131",
+  "verified_on": "2026-08-18",
+  "snapshot_note": "Checked-in executive snapshots captured from verified BigQuery results; use direct BigQuery marts for refreshable Tableau filtering.",
+  "files": [
+    {
+      "file": "portfolio_channel_performance.csv",
+      "rows": 5,
+      "sha256": "ae8e35f7528cff9b344349448fd3edec72b609466f3e1f2f3167100c7ae00d54",
+      "source_sql": "sql/40_analysis/40_executive_findings.sql"
+    },
+    {
+      "file": "portfolio_conversion_comparisons.csv",
+      "rows": 2,
+      "sha256": "43bbd1639a482d43cab52949091161b5f41ee3c86154b7a3e31b1d771870784b",
+      "source_sql": "sql/50_statistics/50_conversion_comparisons.sql"
+    },
+    {
+      "file": "portfolio_customer_segments.csv",
+      "rows": 3,
+      "sha256": "3b81c041e6343f7fcaf739c67f68289e0f2640a8eadac259a0461c3ceee7103a",
+      "source_sql": "sql/40_analysis/40_executive_findings.sql"
+    },
+    {
+      "file": "portfolio_data_quality.csv",
+      "rows": 15,
+      "sha256": "44a88b76ef4db913dce0c6cd09c7bd303d9694574d9e8292649a754a723be800",
+      "source_sql": "sql/90_validation/91_publish_validation.sql"
+    },
+    {
+      "file": "portfolio_device_performance.csv",
+      "rows": 3,
+      "sha256": "6164d08cd5c3295909f0ffe8d818e189cebc383af3185621939f85b19426247f",
+      "source_sql": "sql/40_analysis/40_executive_findings.sql"
+    },
+    {
+      "file": "portfolio_executive_scorecard.csv",
+      "rows": 1,
+      "sha256": "b936aa513f577e5022a77b665ab16283a32c362ff232ab99363ab72181493091",
+      "source_sql": "sql/30_marts/35_mart_executive_scorecard.sql"
+    },
+    {
+      "file": "portfolio_funnel.csv",
+      "rows": 4,
+      "sha256": "10769c695105ffc2d265d3b491e3b9c0016dbe92e3afc54843864e2af7cf9dca",
+      "source_sql": "sql/40_analysis/40_executive_findings.sql"
+    },
+    {
+      "file": "portfolio_purchase_cohorts.csv",
+      "rows": 6,
+      "sha256": "1265baba0eac701ee3766535ef88bf55182f7e83124b7b0d7955191063071b00",
+      "source_sql": "sql/30_marts/34_mart_purchase_cohorts.sql"
+    },
+    {
+      "file": "portfolio_top_products.csv",
+      "rows": 10,
+      "sha256": "de666ed7c60bbec7449779a4c0793e1a2eb288bc12fa7ac4adb855b1cf8fc3cd",
+      "source_sql": "sql/40_analysis/40_executive_findings.sql"
+    },
+    {
+      "file": "portfolio_user_type.csv",
+      "rows": 2,
+      "sha256": "7952cc7598b330530807131232a9e5505cbec0a900ae9287802568d50ec12733",
+      "source_sql": "sql/20_core/20_fct_sessions.sql"
+    },
+    {
+      "file": "portfolio_weekly_trend.csv",
+      "rows": 13,
+      "sha256": "73e3723a9af6095e858293615afb75a9ec654eaa0c015e38223210622379ffe9",
+      "source_sql": "sql/40_analysis/40_executive_findings.sql"
+    }
+  ]
+}

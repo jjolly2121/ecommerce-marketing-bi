@@ -1,0 +1,4 @@
+customer_segment,purchasers,transactions,observed_revenue_usd,unweighted_customer_average_order_value_usd,median_days_to_second_observed_purchase
+One-time Purchaser,3899,3899,250946,64.36163119,
+Repeat Purchaser (2-3),455,1000,67372,67.92857143,2
+Loyal Purchaser (4+),65,380,19790,54.11568841,0
